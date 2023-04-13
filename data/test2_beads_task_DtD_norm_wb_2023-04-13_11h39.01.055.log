@@ -1,0 +1,404 @@
+1.2241 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.0214 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [3440, 1440]. Using actual size
+8.2080 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+8.2085 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f8bdfce4f70>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f8bb16627c0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([3440, 1440]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.2087 	EXP 	window1: mouseVisible = True
+8.2097 	EXP 	window1: mouseVisible = False
+8.2098 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.2098 	EXP 	window1: recordFrameIntervals = False
+8.2909 	EXP 	window1: recordFrameIntervals = True
+9.1275 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+11.1246 	EXP 	Created b_instructions_2_ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='b_instructions_2_', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+11.1316 	EXP 	Created current_bead = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='current_bead', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+11.1456 	EXP 	Created option = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='option', opacity=1.0, ori=0, pos=array([0. , 0.6]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+11.1626 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='jars.jpg', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([-0.8,  0.6]), size=array([0.19069767, 0.44027778]), texRes=128, units='norm', win=Window(...))
+11.1666 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([-0.58,  0.7 ]), rgb=UNKNOWN, text='85:15', units='norm', win=Window(...), wrapWidth=1)
+11.1806 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Get ready!\nPress SPACE to continue', units='norm', win=Window(...), wrapWidth=1)
+11.1870 	EXP 	Created current_bead_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='current_bead_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+11.1951 	EXP 	Created option_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='option_2', opacity=1.0, ori=0, pos=array([0. , 0.6]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+11.2096 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='jars.jpg', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1.0, ori=0.0, pos=array([-0.8,  0.6]), size=array([0.19069767, 0.44027778]), texRes=128, units='norm', win=Window(...))
+11.2130 	EXP 	Created ratio = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='ratio', opacity=1.0, ori=0, pos=array([-0.58,  0.7 ]), rgb=UNKNOWN, text='85:15', units='norm', win=Window(...), wrapWidth=1)
+11.2167 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Get ready!\nPress SPACE to continue', units='norm', win=Window(...), wrapWidth=1)
+11.2218 	EXP 	Created current_bead_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='current_bead_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+11.2286 	EXP 	Created option_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='option_3', opacity=1.0, ori=0, pos=array([0. , 0.6]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+11.2407 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='jars_6040.jpg', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1.0, ori=0.0, pos=array([-0.8,  0.6]), size=array([0.18255814, 0.42222222]), texRes=128, units='norm', win=Window(...))
+11.2437 	EXP 	Created ratio_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='ratio_2', opacity=1.0, ori=0, pos=array([-0.58,  0.7 ]), rgb=UNKNOWN, text='60:40', units='norm', win=Window(...), wrapWidth=1)
+11.2474 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Get ready!\nPress SPACE to continue', units='norm', win=Window(...), wrapWidth=1)
+11.2525 	EXP 	Created current_bead_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='current_bead_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+11.2574 	EXP 	Created option_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='option_4', opacity=1.0, ori=0, pos=array([0. , 0.6]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+11.2682 	EXP 	Created image_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='jars_6040.jpg', interpolate=True, mask=None, maskParams=None, name='image_4', opacity=1.0, ori=0.0, pos=array([-0.8,  0.6]), size=array([0.18255814, 0.42222222]), texRes=128, units='norm', win=Window(...))
+11.2706 	EXP 	Created ratio_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='ratio_3', opacity=1.0, ori=0, pos=array([-0.58,  0.7 ]), rgb=UNKNOWN, text='60:40', units='norm', win=Window(...), wrapWidth=1)
+11.2742 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Get ready!\nPress SPACE to continue', units='norm', win=Window(...), wrapWidth=1)
+11.2794 	EXP 	Created current_bead_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='current_bead_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+11.2837 	EXP 	Created option_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='option_5', opacity=1.0, ori=0, pos=array([0. , 0.6]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+11.2945 	EXP 	Created image_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='jars_50508020b.jpg', interpolate=True, mask=None, maskParams=None, name='image_5', opacity=1.0, ori=0.0, pos=array([-0.8,  0.6]), size=array([0.17965116, 0.42777778]), texRes=128, units='norm', win=Window(...))
+11.3004 	EXP 	Created ratio_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='ratio_4', opacity=1.0, ori=0, pos=array([-0.5,  0.6]), rgb=UNKNOWN, text='Left jar: 85:15\nRight jar: 50:50', units='norm', win=Window(...), wrapWidth=1)
+11.3052 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you!\nEnd of task', units='norm', win=Window(...), wrapWidth=1)
+11.3276 	WARNING 	t of last frame was 2200.21ms (=1/0)
+11.3276 	EXP 	b_instructions_2_: autoDraw = True
+12.4815 	EXP 	Imported trialdef_8515_seq1_small.xlsx as conditions, 40 conditions, 1 params
+12.4825 	EXP 	Created sequence: sequential, trialTypes=40, nReps=1, seed=None
+12.4827 	EXP 	New trial (rep=0, index=0): {'SequenceName': 'seq1_8515_1.jpg'}
+12.4886 	DATA 	Keypress: space
+12.5006 	WARNING 	t of last frame was 40.22ms (=1/24)
+12.5006 	EXP 	b_instructions_2_: autoDraw = False
+12.5006 	EXP 	current_bead: image = 'seq1_8515_1.jpg'
+12.5006 	EXP 	current_bead: autoDraw = True
+12.5006 	EXP 	option: autoDraw = True
+12.5006 	EXP 	image: autoDraw = True
+12.5006 	EXP 	text: autoDraw = True
+13.2660 	DATA 	Keypress: space
+13.2674 	EXP 	New trial (rep=0, index=1): {'SequenceName': 'seq1_8515_2.jpg'}
+13.2742 	EXP 	current_bead: autoDraw = False
+13.2742 	EXP 	option: autoDraw = False
+13.2742 	EXP 	image: autoDraw = False
+13.2742 	EXP 	text: autoDraw = False
+13.2742 	EXP 	current_bead: image = 'seq1_8515_2.jpg'
+13.2742 	EXP 	current_bead: autoDraw = True
+13.2742 	EXP 	option: autoDraw = True
+13.2742 	EXP 	image: autoDraw = True
+13.2742 	EXP 	text: autoDraw = True
+13.6081 	DATA 	Keypress: space
+13.6095 	EXP 	New trial (rep=0, index=2): {'SequenceName': 'seq1_8515_3.jpg'}
+13.6163 	EXP 	current_bead: autoDraw = False
+13.6163 	EXP 	option: autoDraw = False
+13.6163 	EXP 	image: autoDraw = False
+13.6163 	EXP 	text: autoDraw = False
+13.6163 	EXP 	current_bead: image = 'seq1_8515_3.jpg'
+13.6163 	EXP 	current_bead: autoDraw = True
+13.6163 	EXP 	option: autoDraw = True
+13.6163 	EXP 	image: autoDraw = True
+13.6163 	EXP 	text: autoDraw = True
+13.8128 	EXP 	New trial (rep=0, index=3): {'SequenceName': 'seq1_8515_4.jpg'}
+13.8168 	DATA 	Keypress: space
+13.8239 	EXP 	current_bead: autoDraw = False
+13.8239 	EXP 	option: autoDraw = False
+13.8239 	EXP 	image: autoDraw = False
+13.8239 	EXP 	text: autoDraw = False
+13.8239 	EXP 	current_bead: image = 'seq1_8515_4.jpg'
+13.8239 	EXP 	current_bead: autoDraw = True
+13.8239 	EXP 	option: autoDraw = True
+13.8239 	EXP 	image: autoDraw = True
+13.8239 	EXP 	text: autoDraw = True
+14.0082 	DATA 	Keypress: space
+14.0096 	EXP 	New trial (rep=0, index=4): {'SequenceName': 'seq1_8515_5.jpg'}
+14.0166 	EXP 	current_bead: autoDraw = False
+14.0166 	EXP 	option: autoDraw = False
+14.0166 	EXP 	image: autoDraw = False
+14.0166 	EXP 	text: autoDraw = False
+14.0166 	EXP 	current_bead: image = 'seq1_8515_5.jpg'
+14.0166 	EXP 	current_bead: autoDraw = True
+14.0166 	EXP 	option: autoDraw = True
+14.0166 	EXP 	image: autoDraw = True
+14.0166 	EXP 	text: autoDraw = True
+14.1921 	DATA 	Keypress: space
+14.1937 	EXP 	New trial (rep=0, index=5): {'SequenceName': 'seq1_8515_6.jpg'}
+14.2019 	EXP 	current_bead: autoDraw = False
+14.2019 	EXP 	option: autoDraw = False
+14.2019 	EXP 	image: autoDraw = False
+14.2019 	EXP 	text: autoDraw = False
+14.2019 	EXP 	current_bead: image = 'seq1_8515_6.jpg'
+14.2019 	EXP 	current_bead: autoDraw = True
+14.2019 	EXP 	option: autoDraw = True
+14.2019 	EXP 	image: autoDraw = True
+14.2019 	EXP 	text: autoDraw = True
+15.1970 	EXP 	New trial (rep=0, index=6): {'SequenceName': 'seq1_8515_7.jpg'}
+15.2010 	DATA 	Keypress: j
+15.2300 	WARNING 	t of last frame was 34.26ms (=1/29)
+15.2300 	EXP 	current_bead: autoDraw = False
+15.2300 	EXP 	option: autoDraw = False
+15.2300 	EXP 	image: autoDraw = False
+15.2300 	EXP 	text: autoDraw = False
+15.2300 	EXP 	current_bead: image = 'seq1_8515_7.jpg'
+15.2300 	EXP 	current_bead: autoDraw = True
+15.2300 	EXP 	option: autoDraw = True
+15.2300 	EXP 	image: autoDraw = True
+15.2300 	EXP 	text: autoDraw = True
+15.2300 	EXP 	current_bead: autoDraw = False
+15.2300 	EXP 	option: autoDraw = False
+15.2300 	EXP 	image: autoDraw = False
+15.2300 	EXP 	text: autoDraw = False
+15.2300 	EXP 	text_3: autoDraw = True
+16.5836 	EXP 	Imported trialdef_8515_seq3_small.xlsx as conditions, 40 conditions, 1 params
+16.5845 	EXP 	Created sequence: sequential, trialTypes=40, nReps=1, seed=None
+16.5847 	EXP 	New trial (rep=0, index=0): {'SequenceName': 'seq3_8515_1.jpg'}
+16.5909 	DATA 	Keypress: space
+16.5971 	WARNING 	t of last frame was 21.99ms (=1/45)
+16.5971 	EXP 	text_3: autoDraw = False
+16.5971 	EXP 	current_bead_2: image = 'seq3_8515_1.jpg'
+16.5971 	EXP 	current_bead_2: autoDraw = True
+16.5971 	EXP 	option_2: autoDraw = True
+16.5971 	EXP 	image_2: autoDraw = True
+16.5971 	EXP 	ratio: autoDraw = True
+16.9647 	DATA 	Keypress: space
+16.9661 	EXP 	New trial (rep=0, index=1): {'SequenceName': 'seq3_8515_2.jpg'}
+16.9752 	EXP 	current_bead_2: autoDraw = False
+16.9752 	EXP 	option_2: autoDraw = False
+16.9752 	EXP 	image_2: autoDraw = False
+16.9752 	EXP 	ratio: autoDraw = False
+16.9752 	EXP 	current_bead_2: image = 'seq3_8515_2.jpg'
+16.9752 	EXP 	current_bead_2: autoDraw = True
+16.9752 	EXP 	option_2: autoDraw = True
+16.9752 	EXP 	image_2: autoDraw = True
+16.9752 	EXP 	ratio: autoDraw = True
+17.1932 	DATA 	Keypress: space
+17.1949 	EXP 	New trial (rep=0, index=2): {'SequenceName': 'seq3_8515_3.jpg'}
+17.2025 	EXP 	current_bead_2: autoDraw = False
+17.2025 	EXP 	option_2: autoDraw = False
+17.2025 	EXP 	image_2: autoDraw = False
+17.2025 	EXP 	ratio: autoDraw = False
+17.2025 	EXP 	current_bead_2: image = 'seq3_8515_3.jpg'
+17.2025 	EXP 	current_bead_2: autoDraw = True
+17.2025 	EXP 	option_2: autoDraw = True
+17.2025 	EXP 	image_2: autoDraw = True
+17.2025 	EXP 	ratio: autoDraw = True
+17.5823 	EXP 	New trial (rep=0, index=3): {'SequenceName': 'seq3_8515_4.jpg'}
+17.5864 	DATA 	Keypress: space
+17.5922 	EXP 	current_bead_2: autoDraw = False
+17.5922 	EXP 	option_2: autoDraw = False
+17.5922 	EXP 	image_2: autoDraw = False
+17.5922 	EXP 	ratio: autoDraw = False
+17.5922 	EXP 	current_bead_2: image = 'seq3_8515_4.jpg'
+17.5922 	EXP 	current_bead_2: autoDraw = True
+17.5922 	EXP 	option_2: autoDraw = True
+17.5922 	EXP 	image_2: autoDraw = True
+17.5922 	EXP 	ratio: autoDraw = True
+17.9309 	DATA 	Keypress: space
+17.9320 	EXP 	New trial (rep=0, index=4): {'SequenceName': 'seq3_8515_5.jpg'}
+17.9423 	EXP 	current_bead_2: autoDraw = False
+17.9423 	EXP 	option_2: autoDraw = False
+17.9423 	EXP 	image_2: autoDraw = False
+17.9423 	EXP 	ratio: autoDraw = False
+17.9423 	EXP 	current_bead_2: image = 'seq3_8515_5.jpg'
+17.9423 	EXP 	current_bead_2: autoDraw = True
+17.9423 	EXP 	option_2: autoDraw = True
+17.9423 	EXP 	image_2: autoDraw = True
+17.9423 	EXP 	ratio: autoDraw = True
+19.2107 	DATA 	Keypress: k
+19.2638 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+19.2635 	EXP 	current_bead_2: autoDraw = False
+19.2635 	EXP 	option_2: autoDraw = False
+19.2635 	EXP 	image_2: autoDraw = False
+19.2635 	EXP 	ratio: autoDraw = False
+19.2635 	EXP 	text_3: autoDraw = True
+20.2208 	EXP 	Imported trialdef_6040_seq1_small.xlsx as conditions, 40 conditions, 1 params
+20.2216 	EXP 	Created sequence: sequential, trialTypes=40, nReps=1, seed=None
+20.2218 	EXP 	New trial (rep=0, index=0): {'SequenceName': 'seq1_6040_1.jpg'}
+20.2255 	DATA 	Keypress: space
+20.2313 	EXP 	text_3: autoDraw = False
+20.2313 	EXP 	current_bead_3: image = 'seq1_6040_1.jpg'
+20.2313 	EXP 	current_bead_3: autoDraw = True
+20.2313 	EXP 	option_3: autoDraw = True
+20.2313 	EXP 	image_3: autoDraw = True
+20.2313 	EXP 	ratio_2: autoDraw = True
+20.6446 	DATA 	Keypress: space
+20.6461 	EXP 	New trial (rep=0, index=1): {'SequenceName': 'seq1_6040_2.jpg'}
+20.6534 	EXP 	current_bead_3: autoDraw = False
+20.6534 	EXP 	option_3: autoDraw = False
+20.6534 	EXP 	image_3: autoDraw = False
+20.6534 	EXP 	ratio_2: autoDraw = False
+20.6534 	EXP 	current_bead_3: image = 'seq1_6040_2.jpg'
+20.6534 	EXP 	current_bead_3: autoDraw = True
+20.6534 	EXP 	option_3: autoDraw = True
+20.6534 	EXP 	image_3: autoDraw = True
+20.6534 	EXP 	ratio_2: autoDraw = True
+20.8670 	EXP 	New trial (rep=0, index=2): {'SequenceName': 'seq1_6040_3.jpg'}
+20.8708 	DATA 	Keypress: space
+20.8771 	EXP 	current_bead_3: autoDraw = False
+20.8771 	EXP 	option_3: autoDraw = False
+20.8771 	EXP 	image_3: autoDraw = False
+20.8771 	EXP 	ratio_2: autoDraw = False
+20.8771 	EXP 	current_bead_3: image = 'seq1_6040_3.jpg'
+20.8771 	EXP 	current_bead_3: autoDraw = True
+20.8771 	EXP 	option_3: autoDraw = True
+20.8771 	EXP 	image_3: autoDraw = True
+20.8771 	EXP 	ratio_2: autoDraw = True
+21.0450 	EXP 	New trial (rep=0, index=3): {'SequenceName': 'seq1_6040_4.jpg'}
+21.0486 	DATA 	Keypress: space
+21.0530 	EXP 	current_bead_3: autoDraw = False
+21.0530 	EXP 	option_3: autoDraw = False
+21.0530 	EXP 	image_3: autoDraw = False
+21.0530 	EXP 	ratio_2: autoDraw = False
+21.0530 	EXP 	current_bead_3: image = 'seq1_6040_4.jpg'
+21.0530 	EXP 	current_bead_3: autoDraw = True
+21.0530 	EXP 	option_3: autoDraw = True
+21.0530 	EXP 	image_3: autoDraw = True
+21.0530 	EXP 	ratio_2: autoDraw = True
+21.2450 	DATA 	Keypress: space
+21.2467 	EXP 	New trial (rep=0, index=4): {'SequenceName': 'seq1_6040_5.jpg'}
+21.2540 	EXP 	current_bead_3: autoDraw = False
+21.2540 	EXP 	option_3: autoDraw = False
+21.2540 	EXP 	image_3: autoDraw = False
+21.2540 	EXP 	ratio_2: autoDraw = False
+21.2540 	EXP 	current_bead_3: image = 'seq1_6040_5.jpg'
+21.2540 	EXP 	current_bead_3: autoDraw = True
+21.2540 	EXP 	option_3: autoDraw = True
+21.2540 	EXP 	image_3: autoDraw = True
+21.2540 	EXP 	ratio_2: autoDraw = True
+21.4290 	EXP 	New trial (rep=0, index=5): {'SequenceName': 'seq1_6040_6.jpg'}
+21.4334 	DATA 	Keypress: space
+21.4383 	EXP 	current_bead_3: autoDraw = False
+21.4383 	EXP 	option_3: autoDraw = False
+21.4383 	EXP 	image_3: autoDraw = False
+21.4383 	EXP 	ratio_2: autoDraw = False
+21.4383 	EXP 	current_bead_3: image = 'seq1_6040_6.jpg'
+21.4383 	EXP 	current_bead_3: autoDraw = True
+21.4383 	EXP 	option_3: autoDraw = True
+21.4383 	EXP 	image_3: autoDraw = True
+21.4383 	EXP 	ratio_2: autoDraw = True
+22.3124 	DATA 	Keypress: j
+22.3721 	EXP 	current_bead_3: autoDraw = False
+22.3721 	EXP 	option_3: autoDraw = False
+22.3721 	EXP 	image_3: autoDraw = False
+22.3721 	EXP 	ratio_2: autoDraw = False
+22.3721 	EXP 	text_3: autoDraw = True
+23.1514 	EXP 	Imported trialdef_6040_seq3_small.xlsx as conditions, 40 conditions, 1 params
+23.1522 	EXP 	Created sequence: sequential, trialTypes=40, nReps=1, seed=None
+23.1524 	EXP 	New trial (rep=0, index=0): {'SequenceName': 'seq3_6040_1.jpg'}
+23.1560 	DATA 	Keypress: space
+23.1618 	EXP 	text_3: autoDraw = False
+23.1618 	EXP 	current_bead_4: image = 'seq3_6040_1.jpg'
+23.1618 	EXP 	current_bead_4: autoDraw = True
+23.1618 	EXP 	option_4: autoDraw = True
+23.1618 	EXP 	image_4: autoDraw = True
+23.1618 	EXP 	ratio_3: autoDraw = True
+23.5625 	DATA 	Keypress: space
+23.5639 	EXP 	New trial (rep=0, index=1): {'SequenceName': 'seq3_6040_2.jpg'}
+23.5707 	EXP 	current_bead_4: autoDraw = False
+23.5707 	EXP 	option_4: autoDraw = False
+23.5707 	EXP 	image_4: autoDraw = False
+23.5707 	EXP 	ratio_3: autoDraw = False
+23.5707 	EXP 	current_bead_4: image = 'seq3_6040_2.jpg'
+23.5707 	EXP 	current_bead_4: autoDraw = True
+23.5707 	EXP 	option_4: autoDraw = True
+23.5707 	EXP 	image_4: autoDraw = True
+23.5707 	EXP 	ratio_3: autoDraw = True
+23.7465 	EXP 	New trial (rep=0, index=2): {'SequenceName': 'seq3_6040_3.jpg'}
+23.7502 	DATA 	Keypress: space
+23.7549 	EXP 	current_bead_4: autoDraw = False
+23.7549 	EXP 	option_4: autoDraw = False
+23.7549 	EXP 	image_4: autoDraw = False
+23.7549 	EXP 	ratio_3: autoDraw = False
+23.7549 	EXP 	current_bead_4: image = 'seq3_6040_3.jpg'
+23.7549 	EXP 	current_bead_4: autoDraw = True
+23.7549 	EXP 	option_4: autoDraw = True
+23.7549 	EXP 	image_4: autoDraw = True
+23.7549 	EXP 	ratio_3: autoDraw = True
+23.9512 	DATA 	Keypress: space
+23.9528 	EXP 	New trial (rep=0, index=3): {'SequenceName': 'seq3_6040_4.jpg'}
+23.9617 	EXP 	current_bead_4: autoDraw = False
+23.9617 	EXP 	option_4: autoDraw = False
+23.9617 	EXP 	image_4: autoDraw = False
+23.9617 	EXP 	ratio_3: autoDraw = False
+23.9617 	EXP 	current_bead_4: image = 'seq3_6040_4.jpg'
+23.9617 	EXP 	current_bead_4: autoDraw = True
+23.9617 	EXP 	option_4: autoDraw = True
+23.9617 	EXP 	image_4: autoDraw = True
+23.9617 	EXP 	ratio_3: autoDraw = True
+24.1304 	EXP 	New trial (rep=0, index=4): {'SequenceName': 'seq3_6040_5.jpg'}
+24.1350 	DATA 	Keypress: space
+24.1400 	EXP 	current_bead_4: autoDraw = False
+24.1400 	EXP 	option_4: autoDraw = False
+24.1400 	EXP 	image_4: autoDraw = False
+24.1400 	EXP 	ratio_3: autoDraw = False
+24.1400 	EXP 	current_bead_4: image = 'seq3_6040_5.jpg'
+24.1400 	EXP 	current_bead_4: autoDraw = True
+24.1400 	EXP 	option_4: autoDraw = True
+24.1400 	EXP 	image_4: autoDraw = True
+24.1400 	EXP 	ratio_3: autoDraw = True
+24.6298 	DATA 	Keypress: k
+24.6906 	EXP 	current_bead_4: autoDraw = False
+24.6906 	EXP 	option_4: autoDraw = False
+24.6906 	EXP 	image_4: autoDraw = False
+24.6906 	EXP 	ratio_3: autoDraw = False
+24.6906 	EXP 	text_3: autoDraw = True
+25.5371 	EXP 	Imported trialdef_8515_seq4_small.xlsx as conditions, 40 conditions, 1 params
+25.5380 	EXP 	Created sequence: sequential, trialTypes=40, nReps=1, seed=None
+25.5382 	EXP 	New trial (rep=0, index=0): {'SequenceName': 'seq4_8515_1.jpg'}
+25.5425 	DATA 	Keypress: space
+25.5486 	EXP 	text_3: autoDraw = False
+25.5486 	EXP 	current_bead_5: image = 'seq4_8515_1.jpg'
+25.5486 	EXP 	current_bead_5: autoDraw = True
+25.5486 	EXP 	option_5: autoDraw = True
+25.5486 	EXP 	image_5: autoDraw = True
+25.5486 	EXP 	ratio_4: autoDraw = True
+25.7639 	DATA 	Keypress: space
+25.7656 	EXP 	New trial (rep=0, index=1): {'SequenceName': 'seq4_8515_2.jpg'}
+25.7728 	EXP 	current_bead_5: autoDraw = False
+25.7728 	EXP 	option_5: autoDraw = False
+25.7728 	EXP 	image_5: autoDraw = False
+25.7728 	EXP 	ratio_4: autoDraw = False
+25.7728 	EXP 	current_bead_5: image = 'seq4_8515_2.jpg'
+25.7728 	EXP 	current_bead_5: autoDraw = True
+25.7728 	EXP 	option_5: autoDraw = True
+25.7728 	EXP 	image_5: autoDraw = True
+25.7728 	EXP 	ratio_4: autoDraw = True
+25.9856 	EXP 	New trial (rep=0, index=2): {'SequenceName': 'seq4_8515_3.jpg'}
+25.9893 	DATA 	Keypress: space
+25.9961 	EXP 	current_bead_5: autoDraw = False
+25.9961 	EXP 	option_5: autoDraw = False
+25.9961 	EXP 	image_5: autoDraw = False
+25.9961 	EXP 	ratio_4: autoDraw = False
+25.9961 	EXP 	current_bead_5: image = 'seq4_8515_3.jpg'
+25.9961 	EXP 	current_bead_5: autoDraw = True
+25.9961 	EXP 	option_5: autoDraw = True
+25.9961 	EXP 	image_5: autoDraw = True
+25.9961 	EXP 	ratio_4: autoDraw = True
+26.1804 	DATA 	Keypress: space
+26.1817 	EXP 	New trial (rep=0, index=3): {'SequenceName': 'seq4_8515_4.jpg'}
+26.1884 	EXP 	current_bead_5: autoDraw = False
+26.1884 	EXP 	option_5: autoDraw = False
+26.1884 	EXP 	image_5: autoDraw = False
+26.1884 	EXP 	ratio_4: autoDraw = False
+26.1884 	EXP 	current_bead_5: image = 'seq4_8515_4.jpg'
+26.1884 	EXP 	current_bead_5: autoDraw = True
+26.1884 	EXP 	option_5: autoDraw = True
+26.1884 	EXP 	image_5: autoDraw = True
+26.1884 	EXP 	ratio_4: autoDraw = True
+26.3472 	DATA 	Keypress: space
+26.3486 	EXP 	New trial (rep=0, index=4): {'SequenceName': 'seq4_8515_5.jpg'}
+26.3560 	EXP 	current_bead_5: autoDraw = False
+26.3560 	EXP 	option_5: autoDraw = False
+26.3560 	EXP 	image_5: autoDraw = False
+26.3560 	EXP 	ratio_4: autoDraw = False
+26.3560 	EXP 	current_bead_5: image = 'seq4_8515_5.jpg'
+26.3560 	EXP 	current_bead_5: autoDraw = True
+26.3560 	EXP 	option_5: autoDraw = True
+26.3560 	EXP 	image_5: autoDraw = True
+26.3560 	EXP 	ratio_4: autoDraw = True
+26.9191 	EXP 	New trial (rep=0, index=5): {'SequenceName': 'seq4_8515_6.jpg'}
+26.9230 	DATA 	Keypress: j
+26.9297 	EXP 	current_bead_5: autoDraw = False
+26.9297 	EXP 	option_5: autoDraw = False
+26.9297 	EXP 	image_5: autoDraw = False
+26.9297 	EXP 	ratio_4: autoDraw = False
+26.9297 	EXP 	current_bead_5: image = 'seq4_8515_6.jpg'
+26.9297 	EXP 	current_bead_5: autoDraw = True
+26.9297 	EXP 	option_5: autoDraw = True
+26.9297 	EXP 	image_5: autoDraw = True
+26.9297 	EXP 	ratio_4: autoDraw = True
+28.5483 	DATA 	Keypress: k
+28.5496 	EXP 	New trial (rep=0, index=6): {'SequenceName': 'seq4_8515_7.jpg'}
+28.5564 	EXP 	current_bead_5: autoDraw = False
+28.5564 	EXP 	option_5: autoDraw = False
+28.5564 	EXP 	image_5: autoDraw = False
+28.5564 	EXP 	ratio_4: autoDraw = False
+28.5564 	EXP 	current_bead_5: image = 'seq4_8515_7.jpg'
+28.5564 	EXP 	current_bead_5: autoDraw = True
+28.5564 	EXP 	option_5: autoDraw = True
+28.5564 	EXP 	image_5: autoDraw = True
+28.5564 	EXP 	ratio_4: autoDraw = True
+29.6210 	DATA 	Keypress: 1
+29.6887 	EXP 	current_bead_5: autoDraw = False
+29.6887 	EXP 	option_5: autoDraw = False
+29.6887 	EXP 	image_5: autoDraw = False
+29.6887 	EXP 	ratio_4: autoDraw = False
+29.6887 	EXP 	text_2: autoDraw = True
+30.6349 	EXP 	text_2: autoDraw = False
+31.1806 	EXP 	window1: mouseVisible = True
